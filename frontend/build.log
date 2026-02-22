@@ -1,0 +1,24 @@
+
+> frontend@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\swaya\AppData\Local\Temp\next-panic-955539d13643aa309e9a949048a8c1ce.log.
+
+To help make Turbopack better, report this error by ]8;;https://github.com/vercel/next.js/discussions/new?category=turbopack-error-report&title=Turbopack%20Error%3A%20path%20length%20for%20file%20C%3A%5CUsers%5Cswaya%5CAppData%5CLocal%5CPackages%5C5319275A.WhatsAppDesktop_cv1g1gvanyjgm%5CLocalState%5Csessions%5C340C62292DB70AE9AC37A9EA52136BBF874EC751%5Ctransfers%5C2026-08%5Cai%5Cfrontend%5C.next%5Cserver%5Cchunks%5Cssr%5Cnode_modules_next_dist_client_components_builtin_unauthorized_15817684.js%20exceeds%20max%20length%20of%20filesystem&body=Turbopack%20version%3A%20%6023c46498%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0Apath%20length%20for%20file%20C%3A%5CUsers%5Cswaya%5CAppData%5CLocal%5CPackages%5C5319275A.WhatsAppDesktop_cv1g1gvanyjgm%5CLocalState%5Csessions%5C340C62292DB70AE9AC37A9EA52136BBF874EC751%5Ctransfers%5C2026-08%5Cai%5Cfrontend%5C.next%5Cserver%5Cchunks%5Cssr%5Cnode_modules_next_dist_client_components_builtin_unauthorized_15817684.js%20exceeds%20max%20length%20of%20filesystem%0A%0ACaused%20by%3A%0A-%20file%20is%20too%20long%2C%20and%20could%20not%20be%20normalized%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace\clicking here.]8;;\
+-----
+
+
+> Build error occurred
+Error [TurbopackInternalError]: path length for file C:\Users\swaya\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\340C62292DB70AE9AC37A9EA52136BBF874EC751\transfers\2026-08\ai\frontend\.next\server\chunks\ssr\node_modules_next_dist_client_components_builtin_unauthorized_15817684.js exceeds max length of filesystem
+
+Caused by:
+- file is too long, and could not be normalized
+    at ignore-listed frames {
+  type: 'TurbopackInternalError',
+  location: undefined
+}
